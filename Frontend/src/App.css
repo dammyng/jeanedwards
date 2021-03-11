@@ -1,0 +1,169 @@
+body{
+  background-color: white;
+}
+
+.app {
+height: 100vh;
+display: flex;
+flex: 1;
+flex-direction: row;
+
+}
+.header{
+  background-color: #263238 ;
+  margin: 0px;
+  padding: .5rem;
+  color:white;
+}
+
+#searchPanel{
+  background-color: #eceff1;
+flex: 1;
+height: 100vh;
+}
+
+.search_head{
+padding: .5rem;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #263238;
+  border: none;
+  color: white;
+  padding: 5px 14px;
+  text-decoration: none;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.movies_wrap{
+  padding: .5rem;
+}
+
+.m_title{
+  margin: 0;
+  font-size: small;
+  font-weight: bold;
+}
+
+.m_year{
+  margin: 0;
+  font-size: smaller;
+  font-weight: lighter;
+}
+
+.m_panel{
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#detailPanel{
+  flex: 2;
+  background-color: white;
+  height: 100vh;
+}
+.details_wrap{
+  flex-direction: column;
+}
+
+img{
+  height: 250px;
+  margin: auto;
+  display: block;
+}
+
+.table_wrap{
+  padding: .5rem;
+}
+.title_header{
+  margin-bottom: 0px;
+  background-color: black ;
+  color: #eeeeee;
+  padding: .5rem;
+
+}
+table {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+  width: 100%;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table  th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table  td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+th, td {
+  font-weight: unset;
+  padding-right: 10px;
+}
+
+.column2 {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.column {
+  width: 225px;
+  padding-left: 55px;
+}
+#historyPanel{
+  background-color: #eceff1;
+  flex: 1;
+  height: 100vh;
+
+}
+
+.history_wrap{
+  padding: .5rem;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} 
+@media (min-width: 576px) {
+  .container {
+      width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+      width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+      width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+      width: 1140px;
+  }
+}
+
