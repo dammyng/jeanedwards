@@ -11,7 +11,7 @@ The service uses http://www.omdbapi.com service api to provide provide informati
 `cd dotnet test`
 
 ### Start server 
-`dotnet start`
+`dotnet run`
 
 ### Features
 
